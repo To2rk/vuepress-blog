@@ -1,0 +1,23 @@
+{
+  "name": "vuepress",
+  "version": "1.0.0",
+  "description": "my blog",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.2",
+    "@vuepress/plugin-medium-zoom": "^1.5.2",
+    "vuepress": "^1.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@vssue/api-github-v4": "^1.4.0",
+    "@vuepress/plugin-blog": "^1.9.2",
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-plugin-table-of-contents": "^1.1.6"
+  }
+}
