@@ -1,0 +1,33 @@
+{
+  "name": "VuePress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "devDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "@vuepress-reco/core": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-back-to-top": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-comments": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-loading-page": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-pagation": "^1.6.0",
+    "@vuepress/plugin-blog": "^1.9.4",
+    "@vuepress/plugin-medium-zoom": "^1.8.0",
+    "@vuepress/plugin-pwa": "^1.8.0",
+    "docsearch.js": "^2.6.3",
+    "md5": "^2.3.0",
+    "vue-click-outside": "^1.1.0",
+    "vuepress": "^1.8.0",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-plugin-smooth-scroll": "^0.0.10"
+  },
+  "dependencies": {
+    "elliptic": "^6.5.4",
+    "is-svg": "^4.2.2",
+    "ssri": "^8.0.1"
+  }
+}
